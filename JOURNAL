@@ -1,0 +1,39 @@
+I will try developing in codeblocks on all 3 platforms (win/mac/linux)
+
+It turns out code::blocks has very bad support for clang compiler and apple stopped supporting gcc.
+
+Lets try using Xcode on Mac, VSe on Windows and code::blocks on Ubuntu.
+
+Xcode works fine for now, I will use different operating system every day to ensure cross-platform.
+
+Try to avoid #ifdef mess.
+
+There is a great benefit in manually setting xcode project
+
+Setting code::blocks on Ubuntu with GCC compiler with -Wall -g -std=c99
+-Wall is great; it catched some problems xcode did not.
+
+Lost 4 hours installing win7 sp1 updates so I can install VSe2013
+
+General project structure appears
+
+Using output directory as working directory saves a lot of hustle.
+
+Stupid code:blocks does not #define DEBUG in debug mode...
+assert(3) man uses NDEBUG but I don't like double negations: #ifndef NDEBUG
+I will just define DEBUG in debug build settings myself
+
+Testing code is intertwined with normal code but this is fine for non-API .h files, for .c files it does not matter.
+
+Fixed VA_ARGS support in greatest.h under VS2013 compiler.
+
+Visual Studio: Tools->Options->Text Editor->C/C++->Formatting->Spacing
+
+Created CODE_STYLE.h (adopted Carmack's code style a bit)
+
+VS compiler needs end of source file to be on new line!
+VS compiler does not have snprintf function.
+
+MC_Panic module tested on all 3 platforms, it works!
+
+Stupid gcc does not support static const int as a case: constant

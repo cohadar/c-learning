@@ -1,0 +1,20 @@
+This is a cross-platform (win, nix, mac) project in C where I test making cross-platform projects in C :)
+
+I use VS2013 on Windows7
+I use Xcode on MacOSX
+I use code::blocks on Ubuntu
+
+General project structure:
+	* src
+	* resources
+	* build
+	  +--- Debug
+	  +--- Release
+	  +--- Intermediate
+	* mac-xcode
+	* nix-codeblocks
+	* win-vse2013
+    
+    
+NOTE: Using output directory as working directory saves a lot of hustle.
+NOTE: Do not forget to close the IDE before doing a git commit.

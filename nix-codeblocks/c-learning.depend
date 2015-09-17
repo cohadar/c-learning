@@ -1,0 +1,112 @@
+# depslib dependency file v1.0
+1429115056 source:/home/cohadar/c-workspaces/c-learning/src/double.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<errno.h>
+	"double.h"
+
+1429115056 /home/cohadar/c-workspaces/c-learning/src/double.h
+	"asrt.h"
+
+1428903525 /home/cohadar/c-workspaces/c-learning/src/greatest.h
+	"greatest.h"
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<time.h>
+	<setjmp.h>
+
+1429115056 source:/home/cohadar/c-workspaces/c-learning/src/main.c
+	<stdio.h>
+	<stdlib.h>
+	"double.h"
+	"MC_tests.h"
+
+1428903525 source:/home/cohadar/c-workspaces/c-learning/src/MC_arena.c
+	"MC_arena.h"
+	<stdlib.h>
+	<assert.h>
+
+1428903664 /home/cohadar/c-workspaces/c-learning/src/MC_arena.h
+	<stdlib.h>
+	"greatest.h"
+
+1428903525 source:/home/cohadar/c-workspaces/c-learning/src/MC_atom.c
+	"MC_atom.h"
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+
+1428903525 /home/cohadar/c-workspaces/c-learning/src/MC_atom.h
+	<stdio.h>
+	"greatest.h"
+
+1428903525 source:/home/cohadar/c-workspaces/c-learning/src/MC_panic.c
+	"MC_panic.h"
+	<setjmp.h>
+	<assert.h>
+
+1428903525 /home/cohadar/c-workspaces/c-learning/src/MC_panic.h
+	<setjmp.h>
+	<assert.h>
+	"greatest.h"
+
+1429115227 source:/home/cohadar/c-workspaces/c-learning/src/asrt.c
+	"asrt.h"
+	<stdarg.h>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<math.h>
+
+1429131315 /home/cohadar/c-workspaces/c-learning/src/asrt.h
+	<stdlib.h>
+
+1429115056 source:/home/cohadar/c-workspaces/c-learning/src/asrt_tests.c
+	"asrt_tests.h"
+	<stdio.h>
+	"asrt.h"
+
+1429115056 /home/cohadar/c-workspaces/c-learning/src/asrt_tests.h
+
+1428903525 /home/cohadar/c-workspaces/c-learning/src/MC_tests.h
+
+1429115056 source:/home/cohadar/c-workspaces/c-learning/src/MC_list.c
+	"MC_list.h"
+	"MC_malloc.h"
+	<assert.h>
+	<stdarg.h>
+	<sys/resource.h>
+
+1429115056 /home/cohadar/c-workspaces/c-learning/src/MC_list.h
+	<stdlib.h>
+	"greatest.h"
+
+1429115056 /home/cohadar/c-workspaces/c-learning/src/MC_malloc.h
+	<stdlib.h>
+
+1429115056 source:/home/cohadar/c-workspaces/c-learning/src/MC_malloc.c
+	"MC_malloc.h"
+
+1429115056 source:/home/cohadar/c-workspaces/c-learning/src/MC_stack.c
+	"MC_stack.h"
+	<stdlib.h>
+	<assert.h>
+	"asrt.h"
+
+1429115056 /home/cohadar/c-workspaces/c-learning/src/MC_stack.h
+
+1429115056 source:/home/cohadar/c-workspaces/c-learning/src/MC_tests.c
+	"MC_tests.h"
+	"double.h"
+	"MC_stack.h"
+	"MC_atom.h"
+	"MC_panic.h"
+	"MC_arena.h"
+	"MC_list.h"
+	"greatest.h"
+	"asrt.h"
+	"asrt_tests.h"
+

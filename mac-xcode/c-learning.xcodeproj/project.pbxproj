@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB3E0FC51AEF379B006A2EEC /* main2.c in Sources */ = {isa = PBXBuildFile; fileRef = AB3E0FC31AEF379B006A2EEC /* main2.c */; };
+		AB454DEE1AE609160027649D /* cairo_main.c in Sources */ = {isa = PBXBuildFile; fileRef = AB454DEC1AE609160027649D /* cairo_main.c */; };
+		AB454DF11AE60FC60027649D /* libcairo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB454DEF1AE60F470027649D /* libcairo.a */; };
+		ABB612CB1AD6C19B00172569 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = ABB612C71AD6C19B00172569 /* main.c */; };
+		ABB612CC1AD6C19B00172569 /* double.c in Sources */ = {isa = PBXBuildFile; fileRef = ABB612C81AD6C19B00172569 /* double.c */; };
+		ABB612D61AD8F91500172569 /* MC_stack.c in Sources */ = {isa = PBXBuildFile; fileRef = ABB612D41AD8F91500172569 /* MC_stack.c */; };
+		ABB612DB1AD96DF900172569 /* MC_atom.c in Sources */ = {isa = PBXBuildFile; fileRef = ABB612D91AD96DF900172569 /* MC_atom.c */; };
+		ABB612DE1ADA65E100172569 /* MC_panic.c in Sources */ = {isa = PBXBuildFile; fileRef = ABB612DC1ADA65E000172569 /* MC_panic.c */; };
+		ABB612E11ADAFC8C00172569 /* MC_arena.c in Sources */ = {isa = PBXBuildFile; fileRef = ABB612DF1ADAFC8C00172569 /* MC_arena.c */; };
+		ABB612E41ADAFF1E00172569 /* MC_tests.c in Sources */ = {isa = PBXBuildFile; fileRef = ABB612E21ADAFF1E00172569 /* MC_tests.c */; };
+		ABB612E71ADBBF7200172569 /* MC_list.c in Sources */ = {isa = PBXBuildFile; fileRef = ABB612E51ADBBF7200172569 /* MC_list.c */; };
+		ABB612EA1ADBE5DB00172569 /* MC_malloc.c in Sources */ = {isa = PBXBuildFile; fileRef = ABB612E81ADBE5DB00172569 /* MC_malloc.c */; };
+		ABB612ED1ADCE83C00172569 /* asrt.c in Sources */ = {isa = PBXBuildFile; fileRef = ABB612EB1ADCE83C00172569 /* asrt.c */; };
+		ABB612F31ADE260200172569 /* asrt_tests.c in Sources */ = {isa = PBXBuildFile; fileRef = ABB612F11ADE260200172569 /* asrt_tests.c */; };
+		ABB612F71ADE9B4C00172569 /* LICENSE in Sources */ = {isa = PBXBuildFile; fileRef = ABB612F61ADE9B4C00172569 /* LICENSE */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		ABB6129A1AD6BD5900172569 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AB3E0FC31AEF379B006A2EEC /* main2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = main2.c; path = ../main2.c; sourceTree = "<group>"; };
+		AB3E0FC41AEF379B006A2EEC /* main2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = main2.h; path = ../main2.h; sourceTree = "<group>"; };
+		AB454DEC1AE609160027649D /* cairo_main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = cairo_main.c; path = ../src/cairo_main.c; sourceTree = "<group>"; };
+		AB454DED1AE609160027649D /* cairo_main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cairo_main.h; path = ../src/cairo_main.h; sourceTree = "<group>"; };
+		AB454DEF1AE60F470027649D /* libcairo.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcairo.a; path = ../../../../../opt/local/lib/libcairo.a; sourceTree = "<group>"; };
+		ABB612C71AD6C19B00172569 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = main.c; path = ../src/main.c; sourceTree = "<group>"; };
+		ABB612C81AD6C19B00172569 /* double.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = double.c; path = ../src/double.c; sourceTree = "<group>"; };
+		ABB612C91AD6C19B00172569 /* double.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = double.h; path = ../src/double.h; sourceTree = "<group>"; };
+		ABB612CE1AD6C1CB00172569 /* double3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = double3.txt; path = ../resources/double3.txt; sourceTree = "<group>"; };
+		ABB612CF1AD6C1CB00172569 /* double0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = double0.txt; path = ../resources/double0.txt; sourceTree = "<group>"; };
+		ABB612D01AD6C1CB00172569 /* double2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = double2.txt; path = ../resources/double2.txt; sourceTree = "<group>"; };
+		ABB612D11AD6C1CB00172569 /* double1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = double1.txt; path = ../resources/double1.txt; sourceTree = "<group>"; };
+		ABB612D21AD6C1D800172569 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README; path = ../README; sourceTree = "<group>"; };
+		ABB612D31AD72FD700172569 /* c-learning */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "c-learning"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABB612D41AD8F91500172569 /* MC_stack.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = MC_stack.c; path = ../src/MC_stack.c; sourceTree = "<group>"; };
+		ABB612D51AD8F91500172569 /* MC_stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MC_stack.h; path = ../src/MC_stack.h; sourceTree = "<group>"; };
+		ABB612D71AD9156E00172569 /* JOURNAL */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = JOURNAL; path = ../JOURNAL; sourceTree = "<group>"; };
+		ABB612D81AD9157A00172569 /* CODE_STYLE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CODE_STYLE.h; path = ../CODE_STYLE.h; sourceTree = "<group>"; };
+		ABB612D91AD96DF900172569 /* MC_atom.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = MC_atom.c; path = ../src/MC_atom.c; sourceTree = "<group>"; };
+		ABB612DA1AD96DF900172569 /* MC_atom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MC_atom.h; path = ../src/MC_atom.h; sourceTree = "<group>"; };
+		ABB612DC1ADA65E000172569 /* MC_panic.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = MC_panic.c; path = ../src/MC_panic.c; sourceTree = "<group>"; };
+		ABB612DD1ADA65E000172569 /* MC_panic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MC_panic.h; path = ../src/MC_panic.h; sourceTree = "<group>"; };
+		ABB612DF1ADAFC8C00172569 /* MC_arena.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = MC_arena.c; path = ../src/MC_arena.c; sourceTree = "<group>"; };
+		ABB612E01ADAFC8C00172569 /* MC_arena.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MC_arena.h; path = ../src/MC_arena.h; sourceTree = "<group>"; };
+		ABB612E21ADAFF1E00172569 /* MC_tests.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = MC_tests.c; path = ../src/MC_tests.c; sourceTree = "<group>"; };
+		ABB612E31ADAFF1E00172569 /* MC_tests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MC_tests.h; path = ../src/MC_tests.h; sourceTree = "<group>"; };
+		ABB612E51ADBBF7200172569 /* MC_list.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = MC_list.c; path = ../src/MC_list.c; sourceTree = "<group>"; };
+		ABB612E61ADBBF7200172569 /* MC_list.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MC_list.h; path = ../src/MC_list.h; sourceTree = "<group>"; };
+		ABB612E81ADBE5DB00172569 /* MC_malloc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = MC_malloc.c; path = ../src/MC_malloc.c; sourceTree = "<group>"; };
+		ABB612E91ADBE5DB00172569 /* MC_malloc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MC_malloc.h; path = ../src/MC_malloc.h; sourceTree = "<group>"; };
+		ABB612EB1ADCE83C00172569 /* asrt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = asrt.c; path = ../src/asrt.c; sourceTree = "<group>"; };
+		ABB612EC1ADCE83C00172569 /* asrt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = asrt.h; path = ../src/asrt.h; sourceTree = "<group>"; };
+		ABB612F11ADE260200172569 /* asrt_tests.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = asrt_tests.c; path = ../src/asrt_tests.c; sourceTree = "<group>"; };
+		ABB612F21ADE260200172569 /* asrt_tests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = asrt_tests.h; path = ../src/asrt_tests.h; sourceTree = "<group>"; };
+		ABB612F61ADE9B4C00172569 /* LICENSE */ = {isa = PBXFileReference; explicitFileType = text; fileEncoding = 4; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABB612991AD6BD5900172569 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB454DF11AE60FC60027649D /* libcairo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABB612931AD6BD5900172569 = {
+			isa = PBXGroup;
+			children = (
+				AB454DEF1AE60F470027649D /* libcairo.a */,
+				ABB612F61ADE9B4C00172569 /* LICENSE */,
+				ABB612D81AD9157A00172569 /* CODE_STYLE.h */,
+				ABB612D71AD9156E00172569 /* JOURNAL */,
+				ABB612D21AD6C1D800172569 /* README */,
+				ABB612CD1AD6C1BC00172569 /* resources */,
+				ABB612C61AD6C18B00172569 /* src */,
+				ABB612D31AD72FD700172569 /* c-learning */,
+			);
+			sourceTree = "<group>";
+		};
+		ABB612C61AD6C18B00172569 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				ABB612C71AD6C19B00172569 /* main.c */,
+				ABB612C81AD6C19B00172569 /* double.c */,
+				ABB612C91AD6C19B00172569 /* double.h */,
+				ABB612D41AD8F91500172569 /* MC_stack.c */,
+				ABB612D51AD8F91500172569 /* MC_stack.h */,
+				ABB612D91AD96DF900172569 /* MC_atom.c */,
+				ABB612DA1AD96DF900172569 /* MC_atom.h */,
+				ABB612DC1ADA65E000172569 /* MC_panic.c */,
+				ABB612DD1ADA65E000172569 /* MC_panic.h */,
+				ABB612DF1ADAFC8C00172569 /* MC_arena.c */,
+				ABB612E01ADAFC8C00172569 /* MC_arena.h */,
+				ABB612E21ADAFF1E00172569 /* MC_tests.c */,
+				ABB612E31ADAFF1E00172569 /* MC_tests.h */,
+				ABB612E51ADBBF7200172569 /* MC_list.c */,
+				ABB612E61ADBBF7200172569 /* MC_list.h */,
+				ABB612E81ADBE5DB00172569 /* MC_malloc.c */,
+				ABB612E91ADBE5DB00172569 /* MC_malloc.h */,
+				ABB612EB1ADCE83C00172569 /* asrt.c */,
+				ABB612EC1ADCE83C00172569 /* asrt.h */,
+				ABB612F11ADE260200172569 /* asrt_tests.c */,
+				ABB612F21ADE260200172569 /* asrt_tests.h */,
+				AB454DEC1AE609160027649D /* cairo_main.c */,
+				AB454DED1AE609160027649D /* cairo_main.h */,
+				AB3E0FC31AEF379B006A2EEC /* main2.c */,
+				AB3E0FC41AEF379B006A2EEC /* main2.h */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		ABB612CD1AD6C1BC00172569 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				ABB612CE1AD6C1CB00172569 /* double3.txt */,
+				ABB612CF1AD6C1CB00172569 /* double0.txt */,
+				ABB612D01AD6C1CB00172569 /* double2.txt */,
+				ABB612D11AD6C1CB00172569 /* double1.txt */,
+			);
+			name = resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABB6129B1AD6BD5900172569 /* c-learning */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABB612A31AD6BD5900172569 /* Build configuration list for PBXNativeTarget "c-learning" */;
+			buildPhases = (
+				ABB612981AD6BD5900172569 /* Sources */,
+				ABB612991AD6BD5900172569 /* Frameworks */,
+				ABB6129A1AD6BD5900172569 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "c-learning";
+			productName = "c-learning";
+			productReference = ABB612D31AD72FD700172569 /* c-learning */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABB612941AD6BD5900172569 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Damir Cohadarevic";
+				TargetAttributes = {
+					ABB6129B1AD6BD5900172569 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+				};
+			};
+			buildConfigurationList = ABB612971AD6BD5900172569 /* Build configuration list for PBXProject "c-learning" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ABB612931AD6BD5900172569;
+			productRefGroup = ABB612931AD6BD5900172569;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABB6129B1AD6BD5900172569 /* c-learning */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABB612981AD6BD5900172569 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABB612D61AD8F91500172569 /* MC_stack.c in Sources */,
+				ABB612E41ADAFF1E00172569 /* MC_tests.c in Sources */,
+				ABB612F31ADE260200172569 /* asrt_tests.c in Sources */,
+				ABB612DE1ADA65E100172569 /* MC_panic.c in Sources */,
+				ABB612F71ADE9B4C00172569 /* LICENSE in Sources */,
+				ABB612CC1AD6C19B00172569 /* double.c in Sources */,
+				ABB612DB1AD96DF900172569 /* MC_atom.c in Sources */,
+				AB3E0FC51AEF379B006A2EEC /* main2.c in Sources */,
+				ABB612ED1ADCE83C00172569 /* asrt.c in Sources */,
+				ABB612EA1ADBE5DB00172569 /* MC_malloc.c in Sources */,
+				AB454DEE1AE609160027649D /* cairo_main.c in Sources */,
+				ABB612E71ADBBF7200172569 /* MC_list.c in Sources */,
+				ABB612CB1AD6C19B00172569 /* main.c in Sources */,
+				ABB612E11ADAFC8C00172569 /* MC_arena.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		ABB612A11AD6BD5900172569 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/opt/local/include/cairo,
+				);
+				LIBRARY_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRELINK_LIBS = "";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		ABB612A21AD6BD5900172569 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/opt/local/include/cairo,
+				);
+				LIBRARY_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRELINK_LIBS = "";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		ABB612A41AD6BD5900172569 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_TEMP_DIR = "$(PROJECT_TEMP_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/local/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ABB612A51AD6BD5900172569 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/local/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABB612971AD6BD5900172569 /* Build configuration list for PBXProject "c-learning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABB612A11AD6BD5900172569 /* Debug */,
+				ABB612A21AD6BD5900172569 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABB612A31AD6BD5900172569 /* Build configuration list for PBXNativeTarget "c-learning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABB612A41AD6BD5900172569 /* Debug */,
+				ABB612A51AD6BD5900172569 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABB612941AD6BD5900172569 /* Project object */;
+}
